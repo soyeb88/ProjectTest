@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <parameter name="URL" value="www.qa.com" />
+  
+  <test name="Personal loan">
+  
+  	<classes>
+  
+  		<class name="Adda.testNg.testNG.day1"></class>
+  		<class name="Adda.testNg.testNG.day2"></class>
+  
+  	</classes>  
+  
+  </test> 
+  
+  <test name="Business loan">
+  
+  	<classes>
+
+  		<class name="Adda.testNg.testNG.day3"></class>
+  		<class name="Adda.testNg.testNG.day4"></class>
+  
+  	</classes>  
+  
+  </test> 
+</suite> 
