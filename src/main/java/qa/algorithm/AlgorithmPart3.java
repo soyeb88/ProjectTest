@@ -10,13 +10,12 @@ public class AlgorithmPart3 {
 	public void FindALetter() {
 		String word = "Hello World!";
 		char find = 'l';
-		int c = 0;
 		int t = 0;
 		
 		for(int i=0; i<word.length();i++) {
 			if(word.charAt(i) == find) {
-				c = i;
-				System.out.print(find + " at " + c + " position. \n");
+				
+				System.out.print(find + " at " + i + " position. \n");
 				t++;
 			}
 			

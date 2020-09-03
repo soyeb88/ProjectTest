@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class AlgorithmPart2 {
 
-	public void oddEven1() {
+	public void oddEven() {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Please enter number to check even or odd");
 		int n = in.nextInt();
